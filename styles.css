@@ -525,9 +525,7 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
-  .main {
-    /* border: 2px solid red; */
-  }
+
   .mob-img {
     display: block;
   }
