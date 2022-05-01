@@ -236,21 +236,27 @@ a {
 .section3 {
   padding: 3rem 1.5rem;
   background: var(--skyblue1);
+  
 }
 .section3 h3 {
   font-weight: bolder;
   margin-bottom: 2rem;
 }
 
-.section3-cont:nth-child(4) {
-  border: 2px solid yellow;
+.section3-cont {
+  gap: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  border: 2px solid green;
 }
+
 .section3-cont > div {
-  height: 100%;
-  margin-bottom: 1.5rem;
   background: white;
   border-radius: 0.3rem;
   padding: 1.5rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
 }
 
 .name-ava {
@@ -279,7 +285,7 @@ a {
 }
 
 .like-date {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -494,9 +500,6 @@ a {
   .section3-cont {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
   }
 
   .section3-content2 {
@@ -525,7 +528,6 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
-
   .mob-img {
     display: block;
   }
@@ -589,14 +591,11 @@ a {
     padding-right: 5rem;
   }
 
-  .section3-cont {
+  .section3-cont{
     display: flex;
-    align-items: baseline;
+    flex-flow: row nowrap;
   }
 
-  .section3-cont > div {
-    width: 40%;
-  }
 
   .section3-content2 {
     order: 0;
