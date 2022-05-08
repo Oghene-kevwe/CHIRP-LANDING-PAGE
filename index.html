@@ -7,12 +7,6 @@
     <title>Chirp</title>
     <!-- Styles -->
     <link rel="stylesheet" href="./styles.css" />
-
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/203e7ee88d.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -57,36 +51,43 @@
           </h5>
           <div class="sign-up-cont">
             <div class="signup-btn">
-              <img src="./Assets/Twitter.svg" alt="" />
+              <a href="https://twitter.com/"
+                ><img src="./Assets/Twitter.svg" alt=""
+              /></a>
               <p>Sign in with Twitter</p>
             </div>
             <a href="#"
-              >Learn more&nbsp;<i class="fa-solid fa-arrow-right"></i>
+              >Learn more
+              <img
+                src="./Assets/right-arrow-next-svgrepo-com.svg"
+                class="right-arrow"
+                alt=""
+              />
             </a>
           </div>
           <div class="avatar">
             <span>
               <img src="./Assets/userAvatar01.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar02.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar03.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar04.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar05.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar06.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar07.svg" alt="" />
             </span>
-            <span>
+            <span class="squeeze-avatar">
               <img src="./Assets/userAvatar08.svg" alt="" />
             </span>
           </div>
@@ -103,7 +104,7 @@
         <h3>Features that help you Tweet smarter.</h3>
         <div class="section2-content">
           <div>
-            <h3><i class="fa-solid fa-chart-line"></i></h3>
+            <img src="./Assets/analytics-graph-chart-svgrepo-com.svg" alt="" />
             <h5>Analytics</h5>
             <p>
               We constantly monitor your audience as it grows&nbsp;&mdash; so
@@ -112,7 +113,7 @@
             </p>
           </div>
           <div>
-            <h3>&#129299;</h3>
+            <img src="./Assets/nerd-face-svgrepo-com.svg" alt="" />
             <h5>Smart Analyzer</h5>
             <p>
               Chirp automatically recognize your followers' most active times
@@ -121,7 +122,7 @@
             </p>
           </div>
           <div>
-            <h3>🗞️</h3>
+            <img src="./Assets/rolled-up-newspaper-svgrepo-com.svg" alt="" />
             <h5>Schedule Your Tweets</h5>
             <p>
               Quality tweets drive tons of engagements. With Chirp, you can
@@ -130,7 +131,7 @@
             </p>
           </div>
           <div>
-            <h3>🔆</h3>
+            <img src="./Assets/brightness-svgrepo-com.svg" alt="" />
             <h5>Dark Mode</h5>
             <p>
               Friendly on the eyes, no matter what time you write your tweets.
@@ -145,51 +146,53 @@
       <!-- SECTION3 -->
       <section class="section3">
         <h3>What our customers say</h3>
-
         <div class="section3-cont">
           <!-- CONTENT1  -->
           <div class="section3-content1">
-            <!-- name avatar -->
             <div class="name-ava">
-              <img class="dp" src="./Assets/userAvatar02.svg" alt="" />
               <div class="username">
-                <p class="name">Sara May</p>
-                <p class="handle">@sara_may</p>
+                <img class="dp" src="./Assets/userAvatar02.svg" alt="" />
+                <div class="handle">
+                  <p>Sara May</p>
+                  <p>@sara_may</p>
+                </div>
               </div>
-
               <div class="name-ava-icon">
                 <img src="./Assets/Twitter (Blue).svg" alt="" />
               </div>
             </div>
-            <!-- comment -->
+
             <div class="comment">
               <p>
                 I just tried out @chirp and it's amazing, love all the analytics
                 I can see.
               </p>
             </div>
-            <!-- like and date -->
+
             <div class="like-date">
-              <span> <img src="./Assets/Like.svg" alt="" />2</span>
+              <div>
+                <img src="./Assets/Like.svg" alt="" />
+                <p>2</p>
+              </div>
               <p>09/03/22</p>
             </div>
           </div>
 
           <!-- CONTENT2  -->
           <div class="section3-content2">
-            <!-- name avatar -->
             <div class="name-ava">
-              <img class="dp" src="./Assets/userAvatar04.svg" alt="" />
               <div class="username">
-                <p class="name">John Scott</p>
-                <p class="handle">@john_scott</p>
+                <img class="dp" src="./Assets/userAvatar04.svg" alt="" />
+                <div class="handle">
+                  <p>John Scott</p>
+                  <p>@john_scott</p>
+                </div>
               </div>
 
               <div class="name-ava-icon">
                 <img src="./Assets/Twitter (Blue).svg" alt="" />
               </div>
             </div>
-            <!-- comment -->
             <div class="comment">
               <p>
                 I initially started using Chirp to support the co-founder as I
@@ -197,37 +200,43 @@
                 weeks, I can genuinely say this changed my Twitter game.
               </p>
             </div>
-            <!-- like and date -->
             <div class="like-date">
-              <span> <img src="./Assets/Like.svg" alt="" />32</span>
+              <div>
+                <img src="./Assets/Like.svg" alt="" />
+                <p>322</p>
+              </div>
               <p>04/03/22</p>
             </div>
           </div>
 
           <!-- CONTENT3  -->
           <div class="section3-content3">
-            <!-- name avatar -->
             <div class="name-ava">
-              <img class="dp" src="./Assets/userAvatar05.svg" alt="" />
               <div class="username">
-                <p class="name">Tatiana Hilly</p>
-                <p class="handle">@tatihilly</p>
+                <img class="dp" src="./Assets/userAvatar05.svg" alt="" />
+                <div class="handle">
+                  <p>Tatiana Hilly</p>
+                  <p>@tatihilly</p>
+                </div>
               </div>
 
               <div class="name-ava-icon">
                 <img src="./Assets/Twitter (Blue).svg" alt="" />
               </div>
             </div>
-            <!-- comment -->
+
             <div class="comment">
               <p>
                 Absolutely loved everything about Chirp, from the design to how
                 everything works smoothly.
               </p>
             </div>
-            <!-- like and date -->
+
             <div class="like-date">
-              <span> <img src="./Assets/Like.svg" alt="" />222</span>
+              <div>
+                <img src="./Assets/Like.svg" alt="" />
+                <p>433</p>
+              </div>
               <p>05/04/22</p>
             </div>
           </div>
@@ -237,36 +246,41 @@
 
       <!-- SECTION 4 -->
       <section class="section4">
-        <div class="section4-content1">
+        <div class="content1">
           <h2>One simple price plan.</h2>
           <p>
             Start growing your Twitter account by analyzing your follower's
-            patterns
+            patterns.
           </p>
         </div>
-        <div class="price-features">
-          <div class="section4-content2">
-            <h4>Monthly</h4>
-            <h1>$10</h1>
-            <p>/mo</p>
+        <div class="pricing">
+          <div class="pricing-container">
+            <div class="content2">
+              <h4>Monthly</h4>
+              <div>
+                <h1>$10</h1>
+                <h5>/mo</h5>
+              </div>
+            </div>
+            <div class="content3">
+              <div class="features">
+                <img src="./Assets/Checkmark.svg" alt="" />
+
+                <p>Unlimited* scheduled tweets and threads.</p>
+              </div>
+              <div class="features">
+                <img src="./Assets/Checkmark.svg" alt="" />
+
+                <p>Schedule up to 3 weeks in advance.</p>
+              </div>
+              <div class="features">
+                <img src="./Assets/Checkmark.svg" alt="" />
+
+                <p>Real-time audeince analytics tracking up to 5k followers.</p>
+              </div>
+            </div>
           </div>
-          <div class="section4-content3">
-            <div class="features">
-              <img src="./Assets/Checkmark.svg" alt="" />
 
-              <p>Unlimited* scheduled tweets and threads.</p>
-            </div>
-            <div class="features">
-              <img src="./Assets/Checkmark.svg" alt="" />
-
-              <p>Schedule up to 3 weeks in advance.</p>
-            </div>
-            <div class="features">
-              <img src="./Assets/Checkmark.svg" alt="" />
-
-              <p>Real-time audeince analytics tracking up to 5k followers.</p>
-            </div>
-          </div>
           <div class="signup-btn">
             <img src="./Assets/Twitter.svg" alt="" />
             <p>Start Trial with Twitter</p>
@@ -275,13 +289,15 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="#top">Chrip.</a>
-      <div class="footer-content">
-        <a href="https://twitter.com/PraiseIdise" target="_blank"
-          ><img src="./Assets/Twitter (Black).svg" alt=""
-        /></a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
+      <div class="footer-container">
+        <a href="#top">Chrip.</a>
+        <div class="footer-content">
+          <a href="https://twitter.com/PraiseIdise" target="_blank"
+            ><img src="./Assets/Twitter (Black).svg" alt=""
+          /></a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
       </div>
     </footer>
   </body>
