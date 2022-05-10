@@ -134,14 +134,8 @@ section {
   margin-bottom: 2rem;
 }
 .section1 {
-<<<<<<< HEAD
-  background: var(--cream);
-  padding: 3rem 1.5rem;
-=======
- 
   background: var(--cream);
   padding: 2rem 1.5rem;
->>>>>>> 616331f6c5943461e335f6b5cbceba0b26ef7c6c
   display: flex;
   flex-flow: column nowrap;
   row-gap: 1.5rem;
